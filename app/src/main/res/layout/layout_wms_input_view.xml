@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_input"
+    android:layout_width="match_parent"
+    android:layout_height="42dp"
+    android:background="@drawable/bg_input_normal"
+    android:gravity="center_vertical">
+
+    <!--- 输入框 -->
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:textColor="@color/home_header_check_store"
+        android:textSize="@dimen/textSize_20" />
+
+    <ImageView
+        android:id="@+id/icon_checked_inner"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/icon_complete"
+        android:visibility="visible" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <declare-styleable name="WmsInputView">
+
+        <attr name="input_hintText" format="string" />
+        <attr name="input_hintColor" format="color" />
+        <attr name="inputSize" format="integer" />
+        <attr name="inputColor" format="color" />
+        <attr name="android:maxLength"/>
+        <attr name="android:maxLines"/>
+        <attr name="android:text"/>
+        <attr name="android:inputType"/>
+        <attr name="input_state" format="enum">
+            <enum name="STATE_INPUT" value="0" />
+            <enum name="STATE_DISABLE" value="1" />
+            <enum name="STATE_LOADING" value="2" />
+            <enum name="STATE_COMPLETE" value="3" />
+            <enum name="STATE_ERROR" value="4" />
+            <enum name="STATE_DISABLE_STOKE" value="5" />
+            <enum name="STATE_BLUE_DISABLE_STOKE" value="6" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="LeftRightTextView">
+        <attr name="left_text" format="string" />
+        <attr name="right_text" format="string" />
+        <attr name="left_color" format="color" />
+        <attr name="right_color" format="color" />
+        <attr name="text_size" format="integer" />
+    </declare-styleable>
+</resources>

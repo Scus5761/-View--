@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="home_header_check_store">#049CDB</color>
+    <color name="bg_input_complete">#26049CDB</color>
+    <color name="black_a54">#8A000000</color>
+    <color name="bg_input_disable">#e9eaec</color>
+    <color name="text_error">#FC4916</color>
+    <color name="bg_text_error">#33FC4916</color>
+    <color name="transparent">#00000000</color>
+</resources>
